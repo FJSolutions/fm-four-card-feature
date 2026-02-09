@@ -1,7 +1,7 @@
 // vite.config.js
 import browserslist from 'browserslist';
 import {browserslistToTargets, Features} from 'lightningcss';
-import { defineConfig } from 'vite';
+import {defineConfig} from 'vite';
 
 export default defineConfig({
     css: {
@@ -13,7 +13,7 @@ export default defineConfig({
         },
     },
     build: {
-    cssMinify: 'lightningcss', // Set CSS minifier to Lightning CSS
-},
-    // ... other options
+        outDir: 'docs',
+        cssMinify: 'lightningcss', // Set CSS minifier to Lightning CSS
+    },
 });
