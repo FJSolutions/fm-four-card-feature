@@ -49,9 +49,10 @@ It was good to learn how to add `vite` to an existing project and configure it f
 I also integrated `ligtningcss` directly through the `cite.config.js`, which was also a first.
 
 I stuck to a semantic markup for the`html` that looked acceptable with the browser's default styles.
-I had to think differently about not adding elements for styling purposes that had to semantic meaning! 
+I had to think differently about not adding elements for styling purposes that had to semantic meaning!
 
 ```html
+
 <main>
   <article class="card card-supervisor">
     <h2>Supervisor</h2>
@@ -59,7 +60,7 @@ I had to think differently about not adding elements for styling purposes that h
       Monitors activity to identify project roadblocks
     </p>
     <picture>
-      <img src="./images/icon-supervisor.svg" alt="Supervisor" width="64" height="64">
+      <img src="public/images/icon-supervisor.svg" alt="Supervisor" width="64" height="64">
     </picture>
   </article>
   <!--  ... other markup  -->
