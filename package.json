@@ -1,0 +1,20 @@
+{
+  "name": "four-card-feature-section-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.27.0",
+  "devDependencies": {
+    "browserslist": "^4.28.1",
+    "lightningcss": "^1.31.1",
+    "vite": "^7.3.1"
+  }
+}
