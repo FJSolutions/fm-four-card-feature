@@ -4,6 +4,7 @@ import {browserslistToTargets, Features} from 'lightningcss';
 import {defineConfig} from 'vite';
 
 export default defineConfig({
+    base: "./",
     css: {
         transformer: 'lightningcss',
         lightningcss: {
@@ -15,5 +16,11 @@ export default defineConfig({
     build: {
         outDir: 'docs',
         cssMinify: 'lightningcss', // Set CSS minifier to Lightning CSS
+        rollupOptions: {
+            input: {
+                main: 'index.html',
+                styles: 'src/styles/main.css' // Add your CSS file here
+            }
+        },
     },
 });
